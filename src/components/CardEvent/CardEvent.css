@@ -1,0 +1,26 @@
+.event-block{
+  min-height: 60px;
+  padding: 12px 0;
+  box-sizing: border-box;
+  margin: 0 8px 4px;
+  background-color: #45B4B7;
+  border-radius: 2px;
+}
+
+.event__header{
+  display: flex;
+  justify-content: space-between;  
+  margin: 0 16px;
+  color: #FFF;
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.event__body{
+  margin: 0 16px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+}

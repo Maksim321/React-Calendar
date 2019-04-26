@@ -1,0 +1,8 @@
+.calendar__row{
+  width: 100%;
+  margin: 4px 0;
+}
+
+.row-right{
+  text-align: right;
+}

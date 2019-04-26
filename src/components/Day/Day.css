@@ -1,0 +1,61 @@
+.calendar__cell{
+  display: inline-block;
+  margin: 0 5.2px;
+  color: #0B3157;
+  font-weight: 600;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.calendar__cell:first-child{
+  margin-left: 0;
+}
+
+.calendar__cell:last-child{
+  margin-right: 0;
+}
+
+.calendar__cell:hover{
+  cursor: pointer;
+}
+
+.calendar__cell.selected{
+  color: #FFFFFF;
+  background-color: #0B3157;
+  border-radius: 5px;
+}
+
+.today:before{
+  content: '';
+  position: absolute;
+  border: 2px solid #F06543;
+  border-radius: 2px;
+  left: 18px;
+  right: 18px;
+  margin: 5px 0;
+}
+
+.dayoff{
+  color:#F06543;
+}
+
+.day_number{
+  padding: 10px 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.events_indicator:after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  top: 30px;
+  width: 24px;
+  left: 9px;
+  border-radius: 6px;
+  background-color: #48C1C2;
+}

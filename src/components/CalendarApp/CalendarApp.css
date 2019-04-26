@@ -1,0 +1,79 @@
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #EFEFEF;
+  margin: 0;
+}
+
+.calendar-container{
+  position: relative;
+  max-width: 375px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(31,45,61,.05);
+}
+
+.header__container{
+  background-color: #0B3157;
+}
+
+.body__container{
+  padding: 0 16px;
+  margin-top: 8px;
+}
+
+.footer__container{
+  background-color: #0B3157;
+  height: 10px;
+}
+
+.selector-container{
+  position: absolute;
+  width: 100%;
+  background-color: #0B3157;
+  text-align: center;
+  font-size: 14px;
+  padding: 7px 0;
+  z-index: 1;
+  transform: translateY(-23px);
+}
+
+.selector__link{
+  color: #E8E9EB;
+  display: inline-block;
+  border: 1px solid #E8E9EB;
+  border-radius: 30px;
+  opacity: 0.5;
+  height: 30px;
+  padding: 5px 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0 3px;
+}
+
+.events-wrap{
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.events-card{
+  margin-top: 16px;
+}
+
+.events-date{
+  margin: 0 16px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #0B3157;
+  padding: 7px 0;  
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+.events-date_selected{
+  font-size: 14px;
+  opacity: 1;
+}
